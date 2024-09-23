@@ -76,6 +76,7 @@ button {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -294,8 +295,8 @@ button:focus {
 }
 .portfolio-list {
   --items: 3;
-  column-gap: 24px;
-  row-gap: 48px;
+  --indent-col: 16px;
+  gap: 24px;
 }
 /* End Section 4 Portfolio */
 
