@@ -108,6 +108,7 @@ button {
   color: var(--navy-blue);
   max-width: 496px;
   margin-bottom: 72px;
+  text-align: center;
 }
 .section-item-title {
   font-weight: 500;
@@ -116,6 +117,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+  text-align: center;
 }
 .section-list-item-text {
   font-size: 16px;
@@ -272,6 +274,7 @@ button:focus {
 }
 .team-item {
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-names {
   padding: 32px 0;
