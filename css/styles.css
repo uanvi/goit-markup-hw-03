@@ -298,7 +298,8 @@ button:focus {
 }
 .portfolio-list {
   --items: 3;
-  --indent-row: 24px;
+  --indent-row: 48px;
+  --indent-col: 24px;
   gap: 24px;
   width: 100%;
 }
