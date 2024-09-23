@@ -122,6 +122,7 @@ button {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  width: 1158;
 }
 .logo {
   font-family: var(--second-family);
@@ -187,6 +188,7 @@ button {
 /* Hero */
 .hero {
   background: var(--navy-blue);
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -204,6 +206,12 @@ button {
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
