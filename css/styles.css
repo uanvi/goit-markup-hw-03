@@ -18,7 +18,7 @@
 
   --items: 4;
   --indent-row: 24px;
-  --indent-column: 24px;
+  --indent-column: var(--indent-row);
 }
 
 /* base */
@@ -298,8 +298,9 @@ button:focus {
 }
 .portfolio-list {
   --items: 3;
-  --indent-row: 48px;
-  --indent-col: 24px;
+  --indent-row: 24px;
+  gap: 24px;
+  width: 100%;
 }
 /* End Section 4 Portfolio */
 
