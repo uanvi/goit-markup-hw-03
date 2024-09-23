@@ -110,7 +110,11 @@ button {
 /* End Common   */
 
 /* Header */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
 .header-container {
+  width: 1158;
   display: flex;
   align-items: center;
 }
@@ -127,7 +131,7 @@ button {
   letter-spacing: 0.03em;
   line-height: 117%;
   text-transform: uppercase;
-  margin-right: 72px;
+  margin-right: 76px;
 }
 .logo-dark {
   color: var(--navy-blue);
