@@ -17,7 +17,7 @@
   --second-family: 'Raleway', sans-serif;
 
   --items: 4;
-  --indent-row: 18px;
+  --indent-row: 72px;
   --indent-column: var(--indent-row);
 }
 
@@ -93,7 +93,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  max-width: ;
+  max-width: 496px;
 }
 .section-item-title {
   font-weight: 500;
@@ -101,6 +101,7 @@ button {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .section-list-item-text {
   font-size: 16px;
@@ -189,6 +190,7 @@ button {
 .hero {
   background: var(--navy-blue);
   padding: 188px 0;
+  width: 1158;
 }
 .hero-title {
   font-weight: 700;
@@ -197,6 +199,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
+  max-width: 496;
 }
 
 .button {
@@ -213,6 +216,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
 }
 
 button:hover {
@@ -224,12 +228,10 @@ button:focus {
 /* End Hero */
 
 /** Section 2 Features **/
-.features-title {
-  font-weight: 500;
-  line-height: 120%;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
+.features-list {
+  gap: 24px;
+}
+.features-item {
 }
 .features-item-text {
   letter-spacing: 0.02em;
