@@ -18,7 +18,7 @@
 
   --items: 4;
   --indent-row: 24px;
-  --indent-column: var(--indent-row);
+  --indent-column: 24px;
 }
 
 /* base */
@@ -107,6 +107,7 @@ button {
   text-transform: capitalize;
   color: var(--navy-blue);
   max-width: 496px;
+  margin-bottom: 72px;
 }
 .section-item-title {
   font-weight: 500;
@@ -120,6 +121,7 @@ button {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* End Common   */
 
@@ -265,14 +267,35 @@ button:focus {
   text-transform: capitalize;
   color: var(--navy-blue);
 }
+.team-list {
+  gap: 24px;
+}
 .team-item {
   background-color: var(--white);
+}
+.team-names {
+  padding: 32px 0;
 }
 /* End Section 3 Team */
 
 /* Section 4 Portfolio */
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.portfolio-title {
+  margin-bottom: 8px;
+}
+.portfolio-app-name {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
 .portfolio-list {
   --items: 3;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 /* End Section 4 Portfolio */
 
