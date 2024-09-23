@@ -72,7 +72,7 @@ button {
   padding: 120px 0;
 }
 .container {
-  width: 1158;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -106,9 +106,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  max-width: 496px;
   margin-bottom: 72px;
-  text-align: center;
 }
 .section-item-title {
   font-weight: 500;
@@ -132,15 +130,14 @@ button {
   border-bottom: 1px solid var(--cornflower);
 }
 .header-container {
-  width: 1158;
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  width: 1158;
 }
 .logo {
   font-family: var(--second-family);
@@ -207,7 +204,6 @@ button {
 .hero {
   background: var(--navy-blue);
   padding: 188px 0;
-  width: 1158;
 }
 .hero-title {
   font-weight: 700;
@@ -216,7 +212,8 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  max-width: 496;
+  max-width: 496px;
+  margin-bottom: 40px;
 }
 
 .button {
@@ -234,6 +231,8 @@ button {
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 button:hover {
@@ -287,9 +286,7 @@ button:focus {
   border: 1px solid var(--cornflower);
   border-top: none;
 }
-.portfolio-title {
-  margin-bottom: 8px;
-}
+
 .portfolio-app-name {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
