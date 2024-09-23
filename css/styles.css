@@ -300,8 +300,6 @@ button:focus {
   --items: 3;
   --indent-row: 48px;
   --indent-col: 24px;
-  gap: 24px;
-  width: 100%;
 }
 /* End Section 4 Portfolio */
 
