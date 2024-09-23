@@ -70,6 +70,8 @@ button {
 /* Common */
 .section {
   padding: 120px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .container {
   width: 1158px;
@@ -97,7 +99,7 @@ button {
   column-gap: var(--indent-col);
 }
 .card-set-item {
-  width: calc((100% - var(--indent-col) * (var(--items) - 1)) / var(--items));
+  width: calc((100% - (var(--items) - 1) * var(--indent-col)) / var(--items));
 }
 .section-title {
   line-height: 111%;
@@ -205,6 +207,7 @@ button {
 .hero {
   background: var(--navy-blue);
   padding: 188px 0;
+  text-align: center;
 }
 .hero-title {
   font-weight: 700;
@@ -214,7 +217,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
-  margin-bottom: 40px;
+  margin: 0 auto 48px;
 }
 
 .button {
