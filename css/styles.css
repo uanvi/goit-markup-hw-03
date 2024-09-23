@@ -17,7 +17,7 @@
   --second-family: 'Raleway', sans-serif;
 
   --items: 4;
-  --indent-row: 72px;
+  --indent-row: 24px;
   --indent-column: var(--indent-row);
 }
 
@@ -75,6 +75,19 @@ button {
   width: 1158;
   padding: 0 15px;
   margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .card-set {
   display: flex;
@@ -267,10 +280,15 @@ button:focus {
 .footer {
   background: var(--navy-blue);
   color: var(--white);
+  padding: 100px 0;
 }
 .footer-text {
   line-height: 150%;
   color: var(--cloud);
   letter-spacing: 0.02em;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /* End Footer */
