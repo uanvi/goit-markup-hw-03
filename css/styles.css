@@ -295,7 +295,7 @@ button:focus {
 }
 .portfolio-list {
   --items: 3;
-  --indent-row: 48px;
+  --indent-row: 24px;
   --indent-col: 24px;
 }
 /* End Section 4 Portfolio */
