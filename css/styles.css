@@ -118,13 +118,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  text-align: center;
 }
 .section-list-item-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 /* End Common   */
 
@@ -279,6 +277,12 @@ button:focus {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
 }
+.team-item-title {
+  text-align: center;
+}
+.team-list-item-text {
+  text-align: center;
+}
 .team-names {
   padding: 32px 0;
 }
@@ -310,6 +314,7 @@ button:focus {
   padding: 100px 0;
 }
 .footer-text {
+  max-width: 264px;
   line-height: 150%;
   color: var(--cloud);
   letter-spacing: 0.02em;
